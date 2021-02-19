@@ -1,105 +1,124 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Svelte Webpack Starter
+This is my personal starter template for creating [Svelte](https://svelte.dev) apps. It's preconfigured out of the box with Webpack, TypeScript, SASS, Babel, Autoprefixer, and hot module replacement. I've kept it minimal and organized so it's easy to build upon and/or customize.
 
 ---
 
-# svelte app
+- [Getting started](#getting-started)
+	- [Installation](#installation)
+	- [Starting the development server](#starting-the-development-server)
+	- [Building for production](#building-for-production)
+- [Usage](#usage)
+	- [Global styles](#global-styles)
+	- [Single page applications](#single-page-applications)
+	- [Targeting browsers](#targeting-browsers)
+	- [Disabling Babel](#disabling-babel)
+	- [Enabling source maps in production](#enabling-source-maps-in-production)
+	- [Path aliases](#path-aliases)
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+---
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+## Getting started
+
+### Installation
+To quickly get started with this template, use [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
+npx degit baileyherbert/svelte-webpack-starter svelte-app
 cd svelte-app
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
+Then, install dependencies.
 
 ```bash
-cd svelte-app
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+### Starting the development server
+The `dev` script will compile the app, start the development server, and enable hot replacement for components and styles. Open [http://localhost:8080](http://localhost:8080) in your browser to see the app.
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
+### Building for production
+The `build` script will compile the app for production. By default, the bundle will be created at `/public/build/`, which means your public directory will contain everything you need to run the app.
 
 ```bash
 npm run build
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+To run the production build, use the `start` command and open [http://localhost:8080](http://localhost:8080) in your browser.
 
+```bash
+npm run start
+```
 
-## Single-page app mode
+## Usage
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+### Global styles
+The `/src/styles/index.scss` file will be compiled and embedded at the top of the bundled CSS, effectively making it a global stylesheet. You can easily add additional stylesheets to the bundle by editing the `stylesheets` variable at the top of `webpack.config.js`:
 
 ```js
-"start": "sirv public --single"
+const stylesheets = [
+    './src/styles/index.scss'
+];
 ```
 
-## Using TypeScript
+### Single page applications
+If you're building a single page application (which needs multiple routes), edit your package.json file:
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+- Add the `--history-api-fallback` flag to the `"dev"` command
+- Add the `--single` flag to the `"start"` command.
 
-```bash
-node scripts/setupTypeScript.js
+```json
+"scripts": {
+    "dev": "webpack-dev-server [...] --history-api-fallback",
+    "start": "serve [...] --single",
+}
 ```
 
-Or remove the script via:
+### Targeting browsers
+[Babel](https://babeljs.io/docs/en/) and [Autoprefixer](https://www.npmjs.com/package/autoprefixer) will be used to make bundles work in your target browsers, which are listed under `browserslist` in your package.json file. Check out the list of [browserslist queries](https://github.com/browserslist/browserslist#full-list) to customize this.
 
-```bash
-rm scripts/setupTypeScript.js
+```json
+{
+    "browserslist": [
+        "defaults"
+    ]
+}
 ```
 
-## Deploying to the web
+Note that Babel is only active for production builds by default, so it won't slow down your development.
 
-### With [Vercel](https://vercel.com)
+### Disabling Babel
+If you don't need to support older browsers, you can reduce your bundle size by disabling Babel. Just change the `useBabel` variable at the top of `webpack.config.js`:
 
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
+```js
+const useBabel = false;
 ```
 
-Then, from within your project folder:
+### Enabling source maps in production
+By default, this template won't generate source maps for production bundles in order to avoid exposing your source code. If you need to enable source maps in production (such as for debugging), update the `sourceMapsInProduction` variable at the top of `webpack.config.js`.
 
-```bash
-cd public
-vercel deploy --name my-project
+```js
+const sourceMapsInProduction = true;
 ```
 
-### With [surge](https://surge.sh/)
+### Path aliases
+Path aliases are automatically applied to webpack from the `tsconfig.json` file. This helps shorten the import paths for directories that you commonly import from. For example:
 
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
+```json
+"paths": {
+	"stores/*": ["src/some/path/to/stores/*"]
+}
 ```
 
-Then, from within your project folder:
+```js
+import { users } from 'stores/users';
+```
 
-```bash
-npm run build
-surge public my-project.surge.sh
+The root directory is configured as a base path for imports. This means you can also import modules with an absolute path from anywhere in the project.
+
+```js
+import { users } from 'src/some/path/to/stores/users';
 ```
