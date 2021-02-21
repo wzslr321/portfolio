@@ -1,21 +1,14 @@
 <script lang="ts">
     import Header from './Header.svelte';
+    import About from './About.svelte';
 </script>
 
-<main>
-    <Header/>
-</main>
+<Header/>
+<About/>
 
 <style lang="scss">
   	:global(body){
 		background-color:#101820FF;
-	}
-	main {
-		text-align: center;
-		padding: 1em;
-		margin: 0 auto;
-		@media (min-width: 640px) {
-			max-width: none;
-		}
+        color: #b2b2b2;
 	}
 </style>

@@ -17,10 +17,11 @@
       text-transform: uppercase;
       letter-spacing:2px;
       font-family: 'Roboto', sans-serif;
+      text-align:center;
 
       h1 {
-        color: #b2b2b2;
         font-size: 3em;
+        margin-top:2em;
       }
 
       h2{
