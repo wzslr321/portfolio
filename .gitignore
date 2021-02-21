@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 /node_modules/
 /public/build/
 .idea/
 
 .DS_Store
+=======
+.idea/
+node_modules/
+public/build/
+
+>>>>>>> 4c1e2ab (back to standard rollup with scss)
