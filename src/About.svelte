@@ -11,7 +11,7 @@
         at. Nulla bibendum tellus nec magna consequat volutpat. Etiam quis blandit arcu. Quisque placerat risus et ipsum aliquet, eu rutrum
     </section>
     <aside>
-        <img src="images/myself.jpeg" alt="Image of myself">
+        <img src="images/myself.jpeg" alt="Image of myself"/>
     </aside>
 </main>
 
@@ -21,6 +21,8 @@
     justify-content: center;
     max-width: 70%;
     margin: 5em auto;
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
 
     section {
       justify-content: center;

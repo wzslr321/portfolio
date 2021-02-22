@@ -8,7 +8,7 @@
 
 <svelte:head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </svelte:head>
 
 <style lang="scss">
@@ -16,8 +16,8 @@
 
       text-transform: uppercase;
       letter-spacing:2px;
-      font-family: 'Roboto', sans-serif;
       text-align:center;
+      font-weight:100;
 
       h1 {
         font-size: 3em;
