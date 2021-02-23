@@ -8,22 +8,23 @@
         ultricies sollicitudin, turpis sapien rutrum libero, vel aliquam purus nisl at magna.
     </section>
     <aside>
-        <img src="images/myself.jpeg" alt="Image of myself"/>
+        <img src="images/myself.png" alt="Image of myself"/>
     </aside>
 </main>
 
 <style lang="scss">
   main {
     display: flex;
-    justify-content: center;
     max-width: 70%;
     margin: 5em auto;
     font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items:center;
     font-weight:300;
 
     section {
       justify-content: center;
-      max-width: 75%;
+      max-width: 65%;
       font-size:1.25em;
       padding:0 2em;
       letter-spacing:1px;
@@ -31,9 +32,10 @@
     }
 
     aside {
+      display: flex;
+      margin-left:3em;
       img {
-        max-width: 100%;
-        display: flex;
+        border-radius:50%;
       }
     }
   }

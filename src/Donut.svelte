@@ -1,36 +1,37 @@
 <script lang="ts">
+  // Most of the script is from: https://github.com/petercunha/Donut
   import { onMount } from 'svelte'
 
   onMount(() => {
     const preTag = document.querySelector<HTMLPreElement>('pre')
-    let A = 1, B = 1
+    let A: number = 1, B: number = 1
 
     const asciiFrame = () => {
-      let b = []
-      let z = []
+      let b: Array<string> = []
+      let z: Array<number> = []
       A += 0.07
       B += 0.03
-      let cA = Math.cos(A),
-        sA = Math.sin(A),
-        cB = Math.cos(B),
-        sB = Math.sin(B)
+      let cA: number = Math.cos(A),
+        sA: number = Math.sin(A),
+        cB: number = Math.cos(B),
+        sB: number = Math.sin(B)
       for (let k = 0; k < 1760; k++) {
         b[k] = k % 80 == 79 ? '\n' : ' '
         z[k] = 0
       }
       for (let j = 0; j < 6.28; j += 0.07) {
-        let ct = Math.cos(j),
-          st = Math.sin(j)
+        let ct: number = Math.cos(j),
+          st: number = Math.sin(j)
         for (let i = 0; i < 6.28; i += 0.02) {
-          let sp = Math.sin(i),
-            cp = Math.cos(i),
-            h = ct + 2,
-            D = 1 / (sp * h * sA + st * cA + 5),
-            t = sp * h * cA - st * sA
-          let x = 0 | (40 + 30 * D * (cp * h * cB - t * sB)),
-            y = 0 | (12 + 15 * D * (cp * h * sB + t * cB)),
-            o = x + 80 * y,
-            N =
+          let sp: number = Math.sin(i),
+            cp: number = Math.cos(i),
+            h: number = ct + 2,
+            D: number = 1 / (sp * h * sA + st * cA + 5),
+            t: number = sp * h * cA - st * sA
+          let x: number = 0 | (40 + 30 * D * (cp * h * cB - t * sB)),
+            y: number = 0 | (12 + 15 * D * (cp * h * sB + t * cB)),
+            o: number = x + 80 * y,
+            N:number =
               0 |
               (8 *
                 ((st * sA - sp * ct * cA) * cB -
@@ -93,7 +94,7 @@
 
     section {
       display: flex;
-      align-items:center;
+      align-items: center;
       justify-content: center;
     }
   }
