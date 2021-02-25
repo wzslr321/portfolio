@@ -17,7 +17,6 @@
     display: flex;
     max-width: 70%;
     margin: 5em auto;
-    font-family: "Roboto", sans-serif;
     justify-content: center;
     align-items:center;
     font-weight:300;
