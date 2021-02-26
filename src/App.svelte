@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Header from './Header.svelte'
+  import Header from './MainHeader.svelte'
   import About from './About.svelte'
   import Donut from './Curiosities/Donut.svelte'
   import Overflow from './Curiosities/Overflow.svelte'
