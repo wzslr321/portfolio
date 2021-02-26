@@ -1,4 +1,3 @@
-
 <script lang="ts">
   import Header from './Header.svelte'
   import About from './About.svelte'
@@ -18,7 +17,7 @@
 
   :global(body) {
     font-family: $font-family;
-    background-color:$primary-blue-color;
+    background-color: $primary-blue-color;
     color: $primary-font-color;
   }
 </style>

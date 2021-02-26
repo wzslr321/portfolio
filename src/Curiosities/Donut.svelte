@@ -31,7 +31,7 @@
           let x: number = 0 | (40 + 30 * D * (cp * h * cB - t * sB)),
             y: number = 0 | (12 + 15 * D * (cp * h * sB + t * cB)),
             o: number = x + 80 * y,
-            N:number =
+            N: number =
               0 |
               (8 *
                 ((st * sA - sp * ct * cA) * cB -

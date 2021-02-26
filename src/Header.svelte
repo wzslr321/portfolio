@@ -1,8 +1,8 @@
 <header>
 
-    <h1> Wiktor Zając  </h1>
+    <h1> Wiktor Zając </h1>
 
-    <h2> Programming Enthusiast who loves to learn new things.  </h2>
+    <h2> Programming Enthusiast who loves to learn new things. </h2>
 
 </header>
 
@@ -12,21 +12,21 @@
 </svelte:head>
 
 <style lang="scss">
-    header{
+  header {
 
-      text-transform: uppercase;
-      letter-spacing:2px;
-      text-align:center;
-      font-weight:100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 100;
 
-      h1 {
-        font-size: 3em;
-        margin-top:2em;
-      }
-
-      h2{
-        color: #F2AA4CFF;
-      }
-
+    h1 {
+      font-size: 3em;
+      margin-top: 2em;
     }
+
+    h2 {
+      color: #F2AA4CFF;
+    }
+
+  }
 </style>
