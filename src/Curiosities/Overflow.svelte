@@ -1,5 +1,5 @@
 <section>
-    <a href="https://en.wikipedia.org/wiki/Integer_overflow">
+    <a href="https://en.wikipedia.org/wiki/Integer_overflow" target="_blank">
         <p> Or did you know that computer can return number
             <span class="highlighted"> 127 </span>
             as result of calculation
@@ -28,6 +28,11 @@
     a {
       color: $primary-font-color;
       text-decoration: none;
+
+      p {
+        border-bottom: 5px solid $dark-grey-color;
+        padding-bottom:0.5em;
+      }
     }
 
     a:hover {

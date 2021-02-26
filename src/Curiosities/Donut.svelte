@@ -55,7 +55,7 @@
 <section>
     <header>
         <h3>I try to look on programming from a more interesting side.</h3>
-        <p>For example, look at this cool donut code which generates spinning donut!</p>
+        <p>For example, look at this cool donut shaped code which generates spinning donut!</p>
     </header>
     <section>
         <article>

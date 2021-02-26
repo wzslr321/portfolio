@@ -12,6 +12,8 @@
 </svelte:head>
 
 <style lang="scss">
+  @import 'public/style/variables.scss';
+
   header {
 
     text-transform: uppercase;
@@ -25,7 +27,7 @@
     }
 
     h2 {
-      color: #F2AA4CFF;
+      color: $primary-orange-color;
     }
 
   }

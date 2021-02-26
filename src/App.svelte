@@ -3,6 +3,7 @@
   import About from './About.svelte'
   import Donut from './Curiosities/Donut.svelte'
   import Overflow from './Curiosities/Overflow.svelte'
+  import Github from './Experience/Github.svelte'
 
 </script>
 
@@ -10,6 +11,7 @@
 <About/>
 <Donut/>
 <Overflow/>
+<Github/>
 
 
 <style lang="scss">
