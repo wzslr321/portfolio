@@ -1,11 +1,25 @@
 <main>
     <section>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra euismod euismod. Nam eu lacinia neque.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien nibh, sagittis eu lectus vitae, tempus
-        accumsan
-        neque. Nam ultricies justo nec erat finibus, sed sollicitudin urna porta. Donec egestas, elit nec ullamcorper
-        semper,
-        dolor ex consequat nulla, ac blandit tortor justo ut massa.
+        I am a High School student, in the past I have mostly focused
+        on getting knowledge and experience in Web Development, using
+        <span class="highlighted-text"> HTML, CSS </span>
+        and
+        <span class="highlighted-text"> Javascript</span>.
+        Currently my main goal is Mobile Development with
+        <span class="highlighted-text"> Flutter </span>
+        and
+        <span class="highlighted-text"> Golang</span>.
+        I also enjoy
+        <span class="highlighted-text"> Assembly</span>,
+        after which I am going to learn the
+        <span class="highlighted-text">C </span>
+        language. As database I use
+        <span class="highlighted-text"> MongoDB</span>
+        or
+        <span class="highlighted-text"> PostgreSQL</span>
+        and I containerize it all with
+        <span class="highlighted-text"> Docker </span>
+
     </section>
     <aside>
         <img src="images/myself.png" alt="Image of myself"/>

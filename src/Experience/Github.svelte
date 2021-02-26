@@ -11,7 +11,7 @@
         </a>
 
         <article>
-            I don't have projects that are running live in the web. I've focused
+            I don't have projects that run live in the web. I've focused
             only on personal projects to learn new things, till now. The icon on the left redirects
             to my
             <span class="highlighted-text">

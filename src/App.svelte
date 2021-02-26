@@ -5,6 +5,7 @@
   import Overflow from './Curiosities/Overflow.svelte'
   import Github from './Experience/Github.svelte'
   import Contact from './Contact/Contact.svelte'
+  import Footer from './Footer/Footer.svelte'
 
 </script>
 
@@ -14,6 +15,7 @@
 <Overflow/>
 <Github/>
 <Contact/>
+<Footer/>
 
 
 <style lang="scss">
@@ -23,6 +25,8 @@
     font-family: $font-family;
     background-color: $primary-blue-color;
     color: $primary-font-color;
+    padding:0;
+    margin:0;
   }
   :global(.highlighted-text) {
     font-weight: bold;
