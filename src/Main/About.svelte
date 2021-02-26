@@ -5,8 +5,7 @@
         accumsan
         neque. Nam ultricies justo nec erat finibus, sed sollicitudin urna porta. Donec egestas, elit nec ullamcorper
         semper,
-        dolor ex consequat nulla, ac blandit tortor justo ut massa. Mauris finibus consectetur augue, vel congue lorem
-        faucibus vel.
+        dolor ex consequat nulla, ac blandit tortor justo ut massa.
     </section>
     <aside>
         <img src="images/myself.png" alt="Image of myself"/>

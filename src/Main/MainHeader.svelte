@@ -12,7 +12,7 @@
 </svelte:head>
 
 <style lang="scss">
-  @import 'public/style/variables.scss';
+  @import 'public/style/variables';
 
   header {
 

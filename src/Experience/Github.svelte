@@ -1,9 +1,9 @@
 <script>
-  import SectionHeader from '../SectionHeader.svelte'
+  import SectionHeader from '../Main/SectionHeader.svelte'
 </script>
 
 <section>
-    <SectionHeader textContent={"My Experience"}/>
+    <SectionHeader textContent="My Experience"/>
 
     <section>
         <a href="https://github.com/wzslr321" target="_blank">

@@ -1,9 +1,10 @@
 <script lang="ts">
-  import Header from './MainHeader.svelte'
-  import About from './About.svelte'
+  import Header from './Main/MainHeader.svelte'
+  import About from './Main/About.svelte'
   import Donut from './Curiosities/Donut.svelte'
   import Overflow from './Curiosities/Overflow.svelte'
   import Github from './Experience/Github.svelte'
+  import Contact from './Contact/Contact.svelte'
 
 </script>
 
@@ -12,6 +13,7 @@
 <Donut/>
 <Overflow/>
 <Github/>
+<Contact/>
 
 
 <style lang="scss">

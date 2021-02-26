@@ -7,7 +7,7 @@
 </header>
 
 <style lang="scss">
-  @import "public/style/variables.scss";
+  @import "public/style/variables";
 
   header {
     text-transform: uppercase;
