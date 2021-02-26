@@ -22,4 +22,8 @@
     background-color: $primary-blue-color;
     color: $primary-font-color;
   }
+  :global(.highlighted-text) {
+    font-weight: bold;
+    color: $primary-orange-color;
+  }
 </style>
