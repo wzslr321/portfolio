@@ -29,10 +29,10 @@
     width: $container-width;
     margin: 0 auto;
     padding: $horizontal-padding 0;
-    text-align:center;
+    text-align: center;
 
     article {
-      padding:$horizontal-padding 0;
+      padding: $horizontal-padding 0;
       font-size: 1.3em;
 
       p {

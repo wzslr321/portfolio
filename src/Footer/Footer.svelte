@@ -11,8 +11,8 @@
   footer {
     letter-spacing: 1px;
     word-spacing: 2px;
-    text-align:center;
-    padding:1.5em 0;
-    border-top:5px solid $dark-grey-color;
+    text-align: center;
+    padding: 1.5em 0;
+    border-top: 5px solid $dark-grey-color;
   }
 </style>

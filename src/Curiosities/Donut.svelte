@@ -59,7 +59,7 @@
     </header>
     <section>
         <article>
-            <img src="images/donut.png" alt="donut"/>
+            <img src="images/donut.webp" alt="donut"/>
         </article>
         <article class="container">
             <pre class="center" id="d"></pre>

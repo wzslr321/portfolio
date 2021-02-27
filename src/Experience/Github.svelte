@@ -7,7 +7,7 @@
 
     <section>
         <a href="https://github.com/wzslr321" target="_blank">
-            <img src="images/github-icon.png" alt="Github Icon"/>
+            <img src="images/github-icon.webp" alt="Github Icon"/>
         </a>
 
         <article>

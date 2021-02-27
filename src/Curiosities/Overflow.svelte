@@ -27,7 +27,7 @@
 
       p {
         border-bottom: 5px solid $dark-grey-color;
-        padding-bottom:0.5em;
+        padding-bottom: 0.5em;
       }
     }
 

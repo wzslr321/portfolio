@@ -17,7 +17,6 @@
 <Contact/>
 <Footer/>
 
-
 <style lang="scss">
   @import "public/style/variables";
 
@@ -25,9 +24,10 @@
     font-family: $font-family;
     background-color: $primary-blue-color;
     color: $primary-font-color;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
   }
+
   :global(.highlighted-text) {
     font-weight: bold;
     color: $primary-orange-color;

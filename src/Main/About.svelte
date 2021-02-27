@@ -22,7 +22,7 @@
 
     </section>
     <aside>
-        <img src="images/myself.png" alt="Image of myself"/>
+        <img src="images/myself.webp" alt="myself"/>
     </aside>
 </main>
 
