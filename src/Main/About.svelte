@@ -1,10 +1,13 @@
 <main>
     <section>
+      <p>
         I am a High School student, in the past I have mostly focused
         on getting knowledge and experience in Web Development, using
         <span class="highlighted-text"> HTML, CSS </span>
         and
         <span class="highlighted-text"> Javascript</span>.
+      </p>
+      <p>
         Currently my main goal is Mobile Development with
         <span class="highlighted-text"> Flutter </span>
         and
@@ -20,6 +23,7 @@
         and I containerize it all with
         <span class="highlighted-text"> Docker </span>
 
+      </p>
     </section>
     <aside>
         <img src="images/myself.webp" alt="myself"/>
