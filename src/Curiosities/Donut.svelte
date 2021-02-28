@@ -1,6 +1,9 @@
 <script lang="ts">
+  const headerText: String = 'I try to look on programming from a more interesting side'
+
   // Most of the script is from: https://github.com/petercunha/Donut
   import { onMount } from 'svelte'
+  import SectionHeader from '../Main/SectionHeader.svelte'
 
   onMount(() => {
     const preTag = document.querySelector<HTMLPreElement>('pre')
@@ -53,13 +56,15 @@
 </script>
 
 <section>
-    <header>
-        <h3>I try to look on programming from a more interesting side.</h3>
-        <p>For example, look at this cool donut shaped code which generates spinning donut!</p>
-    </header>
+    <SectionHeader textContent={headerText}/>
+    <p>
+        For example, look at this cool donut shaped code which generates spinning donut!
+    </p>
     <section>
         <article>
-            <img src="images/donut.webp" alt="donut"/>
+            <picture>
+                <img src="images/donut.webp" alt="donut" width="100%" height="100%"/>
+            </picture>
         </article>
         <article class="container">
             <pre class="center" id="d"></pre>
@@ -74,18 +79,8 @@
     margin: 0 auto;
     text-align: center;
 
-    header {
-      justify-content: center;
-
-      h3 {
-        color: #F2AA4CFF;
-        text-transform: uppercase;
-        font-size: 1.35em;
-      }
-
-      p {
-        font-size: 1.1em;
-      }
+    p {
+      font-size: 1.3em;
     }
 
     article {

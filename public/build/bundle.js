@@ -350,9 +350,6 @@ var app = (function () {
     	let h1;
     	let t1;
     	let h2;
-    	let t3;
-    	let link0;
-    	let link1;
 
     	const block = {
     		c: function create() {
@@ -362,21 +359,12 @@ var app = (function () {
     			t1 = space();
     			h2 = element("h2");
     			h2.textContent = "Programming Enthusiast who loves to learn new things.";
-    			t3 = space();
-    			link0 = element("link");
-    			link1 = element("link");
-    			attr_dev(h1, "class", "svelte-1p7b9j8");
+    			attr_dev(h1, "class", "svelte-z0crqo");
     			add_location(h1, file, 2, 4, 14);
-    			attr_dev(h2, "class", "svelte-1p7b9j8");
+    			attr_dev(h2, "class", "svelte-z0crqo");
     			add_location(h2, file, 4, 4, 43);
-    			attr_dev(header, "class", "svelte-1p7b9j8");
+    			attr_dev(header, "class", "svelte-z0crqo");
     			add_location(header, file, 0, 0, 0);
-    			attr_dev(link0, "rel", "preconnect");
-    			attr_dev(link0, "href", "https://fonts.gstatic.com");
-    			add_location(link0, file, 9, 4, 138);
-    			attr_dev(link1, "href", "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
-    			attr_dev(link1, "rel", "stylesheet");
-    			add_location(link1, file, 10, 4, 199);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -386,18 +374,12 @@ var app = (function () {
     			append_dev(header, h1);
     			append_dev(header, t1);
     			append_dev(header, h2);
-    			insert_dev(target, t3, anchor);
-    			append_dev(document.head, link0);
-    			append_dev(document.head, link1);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(header);
-    			if (detaching) detach_dev(t3);
-    			detach_dev(link0);
-    			detach_dev(link1);
     		}
     	};
 
@@ -469,6 +451,7 @@ var app = (function () {
     	let span8;
     	let t20;
     	let aside;
+    	let picture;
     	let img;
     	let img_src_value;
 
@@ -477,67 +460,71 @@ var app = (function () {
     			main = element("main");
     			section = element("section");
     			p0 = element("p");
-    			t0 = text("I am a High School student, in the past I have mostly focused\n        on getting knowledge and experience in Web Development, using\n        ");
+    			t0 = text("I am a High School student, in the past I have mostly focused\n            on getting knowledge and experience in Web Development, using\n            ");
     			span0 = element("span");
     			span0.textContent = "HTML, CSS";
-    			t2 = text("\n        and\n        ");
+    			t2 = text("\n            and\n            ");
     			span1 = element("span");
     			span1.textContent = "Javascript";
     			t4 = text(".");
     			t5 = space();
     			p1 = element("p");
-    			t6 = text("Currently my main goal is Mobile Development with\n        ");
+    			t6 = text("Currently my main goal is Mobile Development with\n            ");
     			span2 = element("span");
     			span2.textContent = "Flutter";
-    			t8 = text("\n        and\n        ");
+    			t8 = text("\n            and\n            ");
     			span3 = element("span");
     			span3.textContent = "Golang";
-    			t10 = text(".\n        I also enjoy\n        ");
+    			t10 = text(".\n            I also enjoy\n            ");
     			span4 = element("span");
     			span4.textContent = "Assembly";
-    			t12 = text(",\n        after which I am going to learn the\n        ");
+    			t12 = text(",\n            after which I am going to learn the\n            ");
     			span5 = element("span");
     			span5.textContent = "C";
-    			t14 = text("\n        language. As database I use\n        ");
+    			t14 = text("\n            language. As database I use\n            ");
     			span6 = element("span");
     			span6.textContent = "MongoDB";
-    			t16 = text("\n        or\n        ");
+    			t16 = text("\n            or\n            ");
     			span7 = element("span");
     			span7.textContent = "PostgreSQL";
-    			t18 = text("\n        and I containerize it all with\n        ");
+    			t18 = text("\n            and I containerize it all with\n            ");
     			span8 = element("span");
     			span8.textContent = "Docker";
     			t20 = space();
     			aside = element("aside");
+    			picture = element("picture");
     			img = element("img");
     			attr_dev(span0, "class", "highlighted-text");
-    			add_location(span0, file$1, 5, 8, 179);
+    			add_location(span0, file$1, 5, 12, 193);
     			attr_dev(span1, "class", "highlighted-text");
-    			add_location(span1, file$1, 7, 8, 249);
-    			add_location(p0, file$1, 2, 6, 27);
+    			add_location(span1, file$1, 7, 12, 271);
+    			add_location(p0, file$1, 2, 8, 29);
     			attr_dev(span2, "class", "highlighted-text");
-    			add_location(span2, file$1, 11, 8, 387);
+    			add_location(span2, file$1, 11, 12, 421);
     			attr_dev(span3, "class", "highlighted-text");
-    			add_location(span3, file$1, 13, 8, 455);
+    			add_location(span3, file$1, 13, 12, 497);
     			attr_dev(span4, "class", "highlighted-text");
-    			add_location(span4, file$1, 15, 8, 531);
+    			add_location(span4, file$1, 15, 12, 581);
     			attr_dev(span5, "class", "highlighted-text");
-    			add_location(span5, file$1, 17, 8, 632);
+    			add_location(span5, file$1, 17, 12, 690);
     			attr_dev(span6, "class", "highlighted-text");
-    			add_location(span6, file$1, 19, 8, 717);
+    			add_location(span6, file$1, 19, 12, 783);
     			attr_dev(span7, "class", "highlighted-text");
-    			add_location(span7, file$1, 21, 8, 783);
+    			add_location(span7, file$1, 21, 12, 857);
     			attr_dev(span8, "class", "highlighted-text");
-    			add_location(span8, file$1, 23, 8, 880);
-    			add_location(p1, file$1, 9, 6, 317);
+    			add_location(span8, file$1, 23, 12, 962);
+    			add_location(p1, file$1, 9, 8, 343);
     			attr_dev(section, "class", "svelte-f809rk");
     			add_location(section, file$1, 1, 4, 11);
     			if (img.src !== (img_src_value = "images/myself.webp")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "myself");
+    			attr_dev(img, "width", "100%");
+    			attr_dev(img, "height", "100%");
     			attr_dev(img, "class", "svelte-f809rk");
-    			add_location(img, file$1, 28, 8, 974);
+    			add_location(img, file$1, 30, 12, 1081);
+    			add_location(picture, file$1, 29, 8, 1059);
     			attr_dev(aside, "class", "svelte-f809rk");
-    			add_location(aside, file$1, 27, 4, 958);
+    			add_location(aside, file$1, 28, 4, 1043);
     			attr_dev(main, "class", "svelte-f809rk");
     			add_location(main, file$1, 0, 0, 0);
     		},
@@ -571,7 +558,8 @@ var app = (function () {
     			append_dev(p1, span8);
     			append_dev(main, t20);
     			append_dev(main, aside);
-    			append_dev(aside, img);
+    			append_dev(aside, picture);
+    			append_dev(picture, img);
     		},
     		p: noop,
     		i: noop,
@@ -618,83 +606,40 @@ var app = (function () {
     	}
     }
 
-    /* src/Curiosities/Donut.svelte generated by Svelte v3.32.3 */
-    const file$2 = "src/Curiosities/Donut.svelte";
+    /* src/Main/SectionHeader.svelte generated by Svelte v3.32.3 */
+
+    const file$2 = "src/Main/SectionHeader.svelte";
 
     function create_fragment$2(ctx) {
-    	let section1;
     	let header;
-    	let h3;
-    	let t1;
-    	let p;
-    	let t3;
-    	let section0;
-    	let article0;
-    	let img;
-    	let img_src_value;
-    	let t4;
-    	let article1;
-    	let pre;
+    	let h2;
+    	let t;
 
     	const block = {
     		c: function create() {
-    			section1 = element("section");
     			header = element("header");
-    			h3 = element("h3");
-    			h3.textContent = "I try to look on programming from a more interesting side.";
-    			t1 = space();
-    			p = element("p");
-    			p.textContent = "For example, look at this cool donut shaped code which generates spinning donut!";
-    			t3 = space();
-    			section0 = element("section");
-    			article0 = element("article");
-    			img = element("img");
-    			t4 = space();
-    			article1 = element("article");
-    			pre = element("pre");
-    			attr_dev(h3, "class", "svelte-yqyc86");
-    			add_location(h3, file$2, 38, 8, 1408);
-    			attr_dev(p, "class", "svelte-yqyc86");
-    			add_location(p, file$2, 39, 8, 1484);
-    			attr_dev(header, "class", "svelte-yqyc86");
-    			add_location(header, file$2, 37, 4, 1391);
-    			if (img.src !== (img_src_value = "images/donut.webp")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "alt", "donut");
-    			add_location(img, file$2, 43, 12, 1630);
-    			attr_dev(article0, "class", "svelte-yqyc86");
-    			add_location(article0, file$2, 42, 8, 1608);
-    			attr_dev(pre, "class", "center");
-    			attr_dev(pre, "id", "d");
-    			add_location(pre, file$2, 46, 12, 1740);
-    			attr_dev(article1, "class", "container svelte-yqyc86");
-    			add_location(article1, file$2, 45, 8, 1700);
-    			attr_dev(section0, "class", "svelte-yqyc86");
-    			add_location(section0, file$2, 41, 4, 1590);
-    			attr_dev(section1, "class", "svelte-yqyc86");
-    			add_location(section1, file$2, 36, 0, 1377);
+    			h2 = element("h2");
+    			t = text(/*textContent*/ ctx[0]);
+    			attr_dev(h2, "class", "svelte-pvejqo");
+    			add_location(h2, file$2, 4, 4, 66);
+    			attr_dev(header, "class", "svelte-pvejqo");
+    			add_location(header, file$2, 3, 0, 53);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, section1, anchor);
-    			append_dev(section1, header);
-    			append_dev(header, h3);
-    			append_dev(header, t1);
-    			append_dev(header, p);
-    			append_dev(section1, t3);
-    			append_dev(section1, section0);
-    			append_dev(section0, article0);
-    			append_dev(article0, img);
-    			append_dev(section0, t4);
-    			append_dev(section0, article1);
-    			append_dev(article1, pre);
+    			insert_dev(target, header, anchor);
+    			append_dev(header, h2);
+    			append_dev(h2, t);
     		},
-    		p: noop,
+    		p: function update(ctx, [dirty]) {
+    			if (dirty & /*textContent*/ 1) set_data_dev(t, /*textContent*/ ctx[0]);
+    		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(section1);
+    			if (detaching) detach_dev(header);
     		}
     	};
 
@@ -710,6 +655,168 @@ var app = (function () {
     }
 
     function instance$2($$self, $$props, $$invalidate) {
+    	let { $$slots: slots = {}, $$scope } = $$props;
+    	validate_slots("SectionHeader", slots, []);
+    	let { textContent } = $$props;
+    	const writable_props = ["textContent"];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<SectionHeader> was created with unknown prop '${key}'`);
+    	});
+
+    	$$self.$$set = $$props => {
+    		if ("textContent" in $$props) $$invalidate(0, textContent = $$props.textContent);
+    	};
+
+    	$$self.$capture_state = () => ({ textContent });
+
+    	$$self.$inject_state = $$props => {
+    		if ("textContent" in $$props) $$invalidate(0, textContent = $$props.textContent);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [textContent];
+    }
+
+    class SectionHeader extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, { textContent: 0 });
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "SectionHeader",
+    			options,
+    			id: create_fragment$2.name
+    		});
+
+    		const { ctx } = this.$$;
+    		const props = options.props || {};
+
+    		if (/*textContent*/ ctx[0] === undefined && !("textContent" in props)) {
+    			console.warn("<SectionHeader> was created without expected prop 'textContent'");
+    		}
+    	}
+
+    	get textContent() {
+    		throw new Error("<SectionHeader>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set textContent(value) {
+    		throw new Error("<SectionHeader>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+    }
+
+    /* src/Curiosities/Donut.svelte generated by Svelte v3.32.3 */
+    const file$3 = "src/Curiosities/Donut.svelte";
+
+    function create_fragment$3(ctx) {
+    	let section1;
+    	let sectionheader;
+    	let t0;
+    	let p;
+    	let t2;
+    	let section0;
+    	let article0;
+    	let picture;
+    	let img;
+    	let img_src_value;
+    	let t3;
+    	let article1;
+    	let pre;
+    	let current;
+
+    	sectionheader = new SectionHeader({
+    			props: { textContent: headerText },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			section1 = element("section");
+    			create_component(sectionheader.$$.fragment);
+    			t0 = space();
+    			p = element("p");
+    			p.textContent = "For example, look at this cool donut shaped code which generates spinning donut!";
+    			t2 = space();
+    			section0 = element("section");
+    			article0 = element("article");
+    			picture = element("picture");
+    			img = element("img");
+    			t3 = space();
+    			article1 = element("article");
+    			pre = element("pre");
+    			attr_dev(p, "class", "svelte-162gup4");
+    			add_location(p, file$3, 40, 4, 1575);
+    			if (img.src !== (img_src_value = "images/donut.webp")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "donut");
+    			attr_dev(img, "width", "100%");
+    			attr_dev(img, "height", "100%");
+    			add_location(img, file$3, 46, 16, 1747);
+    			add_location(picture, file$3, 45, 12, 1721);
+    			attr_dev(article0, "class", "svelte-162gup4");
+    			add_location(article0, file$3, 44, 8, 1699);
+    			attr_dev(pre, "class", "center");
+    			attr_dev(pre, "id", "d");
+    			add_location(pre, file$3, 50, 12, 1907);
+    			attr_dev(article1, "class", "container svelte-162gup4");
+    			add_location(article1, file$3, 49, 8, 1867);
+    			attr_dev(section0, "class", "svelte-162gup4");
+    			add_location(section0, file$3, 43, 4, 1681);
+    			attr_dev(section1, "class", "svelte-162gup4");
+    			add_location(section1, file$3, 38, 0, 1515);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, section1, anchor);
+    			mount_component(sectionheader, section1, null);
+    			append_dev(section1, t0);
+    			append_dev(section1, p);
+    			append_dev(section1, t2);
+    			append_dev(section1, section0);
+    			append_dev(section0, article0);
+    			append_dev(article0, picture);
+    			append_dev(picture, img);
+    			append_dev(section0, t3);
+    			append_dev(section0, article1);
+    			append_dev(article1, pre);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(sectionheader.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(sectionheader.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(section1);
+    			destroy_component(sectionheader);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$3.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    const headerText = "I try to look on programming from a more interesting side";
+
+    function instance$3($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Donut", slots, []);
 
@@ -763,29 +870,29 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Donut> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ onMount });
+    	$$self.$capture_state = () => ({ headerText, onMount, SectionHeader });
     	return [];
     }
 
     class Donut extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$2, safe_not_equal, {});
+    		init(this, options, instance$3, create_fragment$3, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Donut",
     			options,
-    			id: create_fragment$2.name
+    			id: create_fragment$3.name
     		});
     	}
     }
 
     /* src/Curiosities/Overflow.svelte generated by Svelte v3.32.3 */
 
-    const file$3 = "src/Curiosities/Overflow.svelte";
+    const file$4 = "src/Curiosities/Overflow.svelte";
 
-    function create_fragment$3(ctx) {
+    function create_fragment$4(ctx) {
     	let section;
     	let a;
     	let p;
@@ -808,17 +915,17 @@ var app = (function () {
     			span1.textContent = "-128 - 1";
     			t4 = text(" ?");
     			attr_dev(span0, "class", "highlighted-text");
-    			add_location(span0, file$3, 3, 12, 160);
+    			add_location(span0, file$4, 3, 12, 160);
     			attr_dev(span1, "class", "highlighted-text");
-    			add_location(span1, file$3, 5, 12, 253);
+    			add_location(span1, file$4, 5, 12, 253);
     			attr_dev(p, "class", "svelte-1xprfje");
-    			add_location(p, file$3, 2, 8, 96);
+    			add_location(p, file$4, 2, 8, 96);
     			attr_dev(a, "href", "https://en.wikipedia.org/wiki/Integer_overflow");
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-1xprfje");
-    			add_location(a, file$3, 1, 4, 14);
+    			add_location(a, file$4, 1, 4, 14);
     			attr_dev(section, "class", "svelte-1xprfje");
-    			add_location(section, file$3, 0, 0, 0);
+    			add_location(section, file$4, 0, 0, 0);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -843,7 +950,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$3.name,
+    		id: create_fragment$4.name,
     		type: "component",
     		source: "",
     		ctx
@@ -852,7 +959,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$3($$self, $$props) {
+    function instance$4($$self, $$props) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Overflow", slots, []);
     	const writable_props = [];
@@ -867,118 +974,14 @@ var app = (function () {
     class Overflow extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$3, create_fragment$3, safe_not_equal, {});
+    		init(this, options, instance$4, create_fragment$4, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Overflow",
     			options,
-    			id: create_fragment$3.name
-    		});
-    	}
-    }
-
-    /* src/Main/SectionHeader.svelte generated by Svelte v3.32.3 */
-
-    const file$4 = "src/Main/SectionHeader.svelte";
-
-    function create_fragment$4(ctx) {
-    	let header;
-    	let h2;
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			header = element("header");
-    			h2 = element("h2");
-    			t = text(/*textContent*/ ctx[0]);
-    			attr_dev(h2, "class", "svelte-pvejqo");
-    			add_location(h2, file$4, 4, 4, 66);
-    			attr_dev(header, "class", "svelte-pvejqo");
-    			add_location(header, file$4, 3, 0, 53);
-    		},
-    		l: function claim(nodes) {
-    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, header, anchor);
-    			append_dev(header, h2);
-    			append_dev(h2, t);
-    		},
-    		p: function update(ctx, [dirty]) {
-    			if (dirty & /*textContent*/ 1) set_data_dev(t, /*textContent*/ ctx[0]);
-    		},
-    		i: noop,
-    		o: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(header);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_fragment$4.name,
-    		type: "component",
-    		source: "",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    function instance$4($$self, $$props, $$invalidate) {
-    	let { $$slots: slots = {}, $$scope } = $$props;
-    	validate_slots("SectionHeader", slots, []);
-    	let { textContent } = $$props;
-    	const writable_props = ["textContent"];
-
-    	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<SectionHeader> was created with unknown prop '${key}'`);
-    	});
-
-    	$$self.$$set = $$props => {
-    		if ("textContent" in $$props) $$invalidate(0, textContent = $$props.textContent);
-    	};
-
-    	$$self.$capture_state = () => ({ textContent });
-
-    	$$self.$inject_state = $$props => {
-    		if ("textContent" in $$props) $$invalidate(0, textContent = $$props.textContent);
-    	};
-
-    	if ($$props && "$$inject" in $$props) {
-    		$$self.$inject_state($$props.$$inject);
-    	}
-
-    	return [textContent];
-    }
-
-    class SectionHeader extends SvelteComponentDev {
-    	constructor(options) {
-    		super(options);
-    		init(this, options, instance$4, create_fragment$4, safe_not_equal, { textContent: 0 });
-
-    		dispatch_dev("SvelteRegisterComponent", {
-    			component: this,
-    			tagName: "SectionHeader",
-    			options,
     			id: create_fragment$4.name
     		});
-
-    		const { ctx } = this.$$;
-    		const props = options.props || {};
-
-    		if (/*textContent*/ ctx[0] === undefined && !("textContent" in props)) {
-    			console.warn("<SectionHeader> was created without expected prop 'textContent'");
-    		}
-    	}
-
-    	get textContent() {
-    		throw new Error("<SectionHeader>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set textContent(value) {
-    		throw new Error("<SectionHeader>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
@@ -990,12 +993,14 @@ var app = (function () {
     	let sectionheader;
     	let t0;
     	let section0;
-    	let a;
+    	let a0;
+    	let picture;
     	let img;
     	let img_src_value;
     	let t1;
     	let article;
     	let t2;
+    	let a1;
     	let span;
     	let t4;
     	let current;
@@ -1011,27 +1016,36 @@ var app = (function () {
     			create_component(sectionheader.$$.fragment);
     			t0 = space();
     			section0 = element("section");
-    			a = element("a");
+    			a0 = element("a");
+    			picture = element("picture");
     			img = element("img");
     			t1 = space();
     			article = element("article");
-    			t2 = text("I don't have projects that run live in the web. I've focused\n            only on personal projects to learn new things, till now. The icon on the left redirects\n            to my\n            ");
+    			t2 = text("I don't have projects that run live in the web. I've focused\n            Check out my\n            ");
+    			a1 = element("a");
     			span = element("span");
     			span.textContent = "Github Profile";
     			t4 = text("\n            with all the public code I wrote so far!");
     			if (img.src !== (img_src_value = "images/github-icon.webp")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Github Icon");
-    			add_location(img, file$5, 9, 12, 228);
-    			attr_dev(a, "href", "https://github.com/wzslr321");
-    			attr_dev(a, "target", "_blank");
-    			add_location(a, file$5, 8, 8, 161);
+    			attr_dev(img, "width", "100%");
+    			attr_dev(img, "height", "100%");
+    			add_location(img, file$5, 10, 16, 254);
+    			add_location(picture, file$5, 9, 12, 228);
+    			attr_dev(a0, "href", "https://github.com/wzslr321");
+    			attr_dev(a0, "target", "_blank");
+    			attr_dev(a0, "class", "svelte-1gvqn5w");
+    			add_location(a0, file$5, 8, 8, 161);
     			attr_dev(span, "class", "highlighted-text");
-    			add_location(span, file$5, 16, 12, 518);
-    			attr_dev(article, "class", "svelte-fvvkal");
-    			add_location(article, file$5, 12, 8, 305);
-    			attr_dev(section0, "class", "svelte-fvvkal");
+    			add_location(span, file$5, 17, 16, 555);
+    			attr_dev(a1, "href", "https://github.com/wzslr321");
+    			attr_dev(a1, "class", "svelte-1gvqn5w");
+    			add_location(a1, file$5, 16, 12, 500);
+    			attr_dev(article, "class", "svelte-1gvqn5w");
+    			add_location(article, file$5, 13, 8, 380);
+    			attr_dev(section0, "class", "svelte-1gvqn5w");
     			add_location(section0, file$5, 7, 4, 143);
-    			attr_dev(section1, "class", "svelte-fvvkal");
+    			attr_dev(section1, "class", "svelte-1gvqn5w");
     			add_location(section1, file$5, 4, 0, 79);
     		},
     		l: function claim(nodes) {
@@ -1042,12 +1056,14 @@ var app = (function () {
     			mount_component(sectionheader, section1, null);
     			append_dev(section1, t0);
     			append_dev(section1, section0);
-    			append_dev(section0, a);
-    			append_dev(a, img);
+    			append_dev(section0, a0);
+    			append_dev(a0, picture);
+    			append_dev(picture, img);
     			append_dev(section0, t1);
     			append_dev(section0, article);
     			append_dev(article, t2);
-    			append_dev(article, span);
+    			append_dev(article, a1);
+    			append_dev(a1, span);
     			append_dev(article, t4);
     			current = true;
     		},
@@ -1144,19 +1160,21 @@ var app = (function () {
     			a = element("a");
     			span1 = element("span");
     			span1.textContent = "Wiktor Zając";
-    			attr_dev(span0, "class", "highlighted-text");
-    			add_location(span0, file$6, 9, 12, 206);
-    			add_location(p0, file$6, 7, 8, 157);
-    			attr_dev(span1, "class", "highlighted-text");
-    			add_location(span1, file$6, 16, 12, 436);
+    			attr_dev(span0, "class", "highlighted-text svelte-rwvqr6");
+    			add_location(span0, file$6, 9, 12, 240);
+    			add_location(p0, file$6, 7, 8, 191);
+    			attr_dev(span1, "class", "highlighted-text svelte-rwvqr6");
+    			add_location(span1, file$6, 16, 12, 470);
     			attr_dev(a, "href", "https://www.facebook.com/wiktor.zajac.96/");
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-rjzjr8");
-    			add_location(a, file$6, 15, 12, 355);
-    			add_location(p1, file$6, 14, 8, 314);
-    			attr_dev(article, "class", "svelte-rjzjr8");
-    			add_location(article, file$6, 6, 4, 139);
-    			attr_dev(section, "class", "svelte-rjzjr8");
+    			attr_dev(a, "class", "svelte-rwvqr6");
+    			add_location(a, file$6, 15, 12, 389);
+    			add_location(p1, file$6, 14, 8, 348);
+    			attr_dev(article, "id", "contact");
+    			attr_dev(article, "class", "svelte-rwvqr6");
+    			add_location(article, file$6, 6, 4, 160);
+    			attr_dev(section, "id", "contact-section");
+    			attr_dev(section, "class", "svelte-rwvqr6");
     			add_location(section, file$6, 4, 0, 79);
     		},
     		l: function claim(nodes) {

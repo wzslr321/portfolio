@@ -16,8 +16,8 @@
     font-weight: 100;
 
     h2 {
-      color:$primary-orange-color;
-      text-shadow:2px 2px 2px black;
+      color: $primary-orange-color;
+      text-shadow: 2px 2px 2px black;
     }
 
   }

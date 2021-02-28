@@ -2,9 +2,9 @@
   import SectionHeader from '../Main/SectionHeader.svelte'
 </script>
 
-<section>
+<section id="contact-section">
     <SectionHeader textContent="Contact Me"/>
-    <article>
+    <article id="contact">
         <p>
             Reach me via e-mail:
             <span class="highlighted-text">
@@ -39,9 +39,14 @@
         a {
           text-decoration: none;
         }
+
+        span {
+          text-shadow: 1px 1px 1px black;
+        }
       }
     }
   }
+
 </style>
 
 

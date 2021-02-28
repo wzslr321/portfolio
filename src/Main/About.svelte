@@ -1,32 +1,35 @@
 <main>
     <section>
-      <p>
-        I am a High School student, in the past I have mostly focused
-        on getting knowledge and experience in Web Development, using
-        <span class="highlighted-text"> HTML, CSS </span>
-        and
-        <span class="highlighted-text"> Javascript</span>.
-      </p>
-      <p>
-        Currently my main goal is Mobile Development with
-        <span class="highlighted-text"> Flutter </span>
-        and
-        <span class="highlighted-text"> Golang</span>.
-        I also enjoy
-        <span class="highlighted-text"> Assembly</span>,
-        after which I am going to learn the
-        <span class="highlighted-text">C </span>
-        language. As database I use
-        <span class="highlighted-text"> MongoDB</span>
-        or
-        <span class="highlighted-text"> PostgreSQL</span>
-        and I containerize it all with
-        <span class="highlighted-text"> Docker </span>
+        <p>
+            I am a High School student, in the past I have mostly focused
+            on getting knowledge and experience in Web Development, using
+            <span class="highlighted-text"> HTML, CSS </span>
+            and
+            <span class="highlighted-text"> Javascript</span>.
+        </p>
+        <p>
+            Currently my main goal is Mobile Development with
+            <span class="highlighted-text"> Flutter </span>
+            and
+            <span class="highlighted-text"> Golang</span>.
+            I also enjoy
+            <span class="highlighted-text"> Assembly</span>,
+            after which I am going to learn the
+            <span class="highlighted-text">C </span>
+            language. As database I use
+            <span class="highlighted-text"> MongoDB</span>
+            or
+            <span class="highlighted-text"> PostgreSQL</span>
+            and I containerize it all with
+            <span class="highlighted-text"> Docker </span>
 
-      </p>
+        </p>
+
     </section>
     <aside>
-        <img src="images/myself.webp" alt="myself"/>
+        <picture>
+            <img src="images/myself.webp" alt="myself" width="100%" height="100%" />
+        </picture>
     </aside>
 </main>
 
