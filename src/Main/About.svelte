@@ -1,5 +1,10 @@
 <main>
     <section>
+        <section>
+            <picture>
+                <img src="images/myself.webp" alt="myself" width="100%" height="100%"/>
+            </picture>
+        </section>
         <p>
             I am a High School student, in the past I have mostly focused
             on getting knowledge and experience in Web Development, using
@@ -28,7 +33,7 @@
     </section>
     <aside>
         <picture>
-            <img src="images/myself.webp" alt="myself" width="100%" height="100%" />
+            <img src="images/myself.webp" alt="myself" width="100%" height="100%"/>
         </picture>
     </aside>
 </main>
@@ -49,17 +54,50 @@
       padding: 0 2em;
       letter-spacing: 1px;
       word-spacing: 5px;
+
+      section {
+        display: none;
+      }
     }
 
     aside {
-      display: flex;
-      margin-left: 3em;
+      display: none;
+    }
 
-      img {
-        border-radius: 50%;
+  }
+
+  @media(max-width: 600px) {
+    main {
+      margin: 3em auto;
+      max-width: 95%;
+
+      section {
+        max-width: 100%;
+
+        section {
+          display: flex;
+          margin-bottom: 2em;
+
+          img {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media(min-width: 600px) {
+    main {
+      aside {
+        display: flex;
+        margin-left: 3em;
+
+        img {
+          border-radius: 50%;
+        }
       }
     }
   }
-
 
 </style>

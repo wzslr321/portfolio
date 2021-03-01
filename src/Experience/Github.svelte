@@ -30,7 +30,7 @@
   section {
     section {
 
-      width: $container-width;
+      max-width: $container-width;
       margin: 0 auto;
       padding: $horizontal-padding 0;
       display: flex;
@@ -46,8 +46,21 @@
         }
 
         a:hover {
-          transition:0.5s;
-          font-size:1.025em;
+          transition: 0.5s;
+          font-size: 1.025em;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 600px) {
+    section {
+      section {
+        max-width: 100%;
+        padding:0 1em;
+
+        article{
+          padding:0 1em;
         }
       }
     }
