@@ -101,7 +101,7 @@
         article {
           max-width:50%;
           pre {
-            font-size:4px;
+            font-size:3.5px;
             max-width:100%;
             white-space: pre-wrap;
             word-wrap:break-word;

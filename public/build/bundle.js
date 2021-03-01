@@ -771,7 +771,7 @@ var app = (function () {
     			t3 = space();
     			article1 = element("article");
     			pre = element("pre");
-    			attr_dev(p, "class", "svelte-53ftgj");
+    			attr_dev(p, "class", "svelte-1kc4t9v");
     			add_location(p, file$3, 40, 4, 1575);
     			if (img.src !== (img_src_value = "images/donut.webp")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "donut");
@@ -779,16 +779,16 @@ var app = (function () {
     			attr_dev(img, "height", "100%");
     			add_location(img, file$3, 46, 16, 1747);
     			add_location(picture, file$3, 45, 12, 1721);
-    			attr_dev(article0, "class", "svelte-53ftgj");
+    			attr_dev(article0, "class", "svelte-1kc4t9v");
     			add_location(article0, file$3, 44, 8, 1699);
-    			attr_dev(pre, "class", "center svelte-53ftgj");
+    			attr_dev(pre, "class", "center svelte-1kc4t9v");
     			attr_dev(pre, "id", "d");
     			add_location(pre, file$3, 50, 12, 1907);
-    			attr_dev(article1, "class", "container svelte-53ftgj");
+    			attr_dev(article1, "class", "container svelte-1kc4t9v");
     			add_location(article1, file$3, 49, 8, 1867);
-    			attr_dev(section0, "class", "svelte-53ftgj");
+    			attr_dev(section0, "class", "svelte-1kc4t9v");
     			add_location(section0, file$3, 43, 4, 1681);
-    			attr_dev(section1, "class", "svelte-53ftgj");
+    			attr_dev(section1, "class", "svelte-1kc4t9v");
     			add_location(section1, file$3, 38, 0, 1515);
     		},
     		l: function claim(nodes) {
