@@ -3,6 +3,7 @@
 </script>
 
 <section>
+
     <SectionHeader textContent="My Experience"/>
 
     <section>
@@ -12,7 +13,8 @@
             </picture>
         </a>
         <article>
-            I don't have projects that run live in the web. I've focused
+            I don't have projects that run live in the web. So far I have been focusing
+            on personal projects with an emphasis on self improvement.
             Check out my
             <a href="https://github.com/wzslr321">
                 <span class="highlighted-text">
@@ -53,14 +55,21 @@
     }
   }
 
-  @media(max-width: 600px) {
+  @media(max-width: 992px) {
     section {
       section {
         max-width: 100%;
         padding:0 1em;
+        a {
+          display:none;
+        }
 
         article{
           padding:0 1em;
+          text-align:center;
+          a {
+            display: inline;
+          }
         }
       }
     }

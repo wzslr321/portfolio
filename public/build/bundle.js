@@ -359,11 +359,11 @@ var app = (function () {
     			t1 = space();
     			h2 = element("h2");
     			h2.textContent = "Programming Enthusiast who loves to learn new things.";
-    			attr_dev(h1, "class", "svelte-z0crqo");
+    			attr_dev(h1, "class", "svelte-l50mxq");
     			add_location(h1, file, 2, 4, 14);
-    			attr_dev(h2, "class", "svelte-z0crqo");
+    			attr_dev(h2, "class", "svelte-l50mxq");
     			add_location(h2, file, 4, 4, 43);
-    			attr_dev(header, "class", "svelte-z0crqo");
+    			attr_dev(header, "class", "svelte-l50mxq");
     			add_location(header, file, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -771,7 +771,7 @@ var app = (function () {
     			t3 = space();
     			article1 = element("article");
     			pre = element("pre");
-    			attr_dev(p, "class", "svelte-162gup4");
+    			attr_dev(p, "class", "svelte-53ftgj");
     			add_location(p, file$3, 40, 4, 1575);
     			if (img.src !== (img_src_value = "images/donut.webp")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "donut");
@@ -779,16 +779,16 @@ var app = (function () {
     			attr_dev(img, "height", "100%");
     			add_location(img, file$3, 46, 16, 1747);
     			add_location(picture, file$3, 45, 12, 1721);
-    			attr_dev(article0, "class", "svelte-162gup4");
+    			attr_dev(article0, "class", "svelte-53ftgj");
     			add_location(article0, file$3, 44, 8, 1699);
-    			attr_dev(pre, "class", "center");
+    			attr_dev(pre, "class", "center svelte-53ftgj");
     			attr_dev(pre, "id", "d");
     			add_location(pre, file$3, 50, 12, 1907);
-    			attr_dev(article1, "class", "container svelte-162gup4");
+    			attr_dev(article1, "class", "container svelte-53ftgj");
     			add_location(article1, file$3, 49, 8, 1867);
-    			attr_dev(section0, "class", "svelte-162gup4");
+    			attr_dev(section0, "class", "svelte-53ftgj");
     			add_location(section0, file$3, 43, 4, 1681);
-    			attr_dev(section1, "class", "svelte-162gup4");
+    			attr_dev(section1, "class", "svelte-53ftgj");
     			add_location(section1, file$3, 38, 0, 1515);
     		},
     		l: function claim(nodes) {
@@ -1043,7 +1043,7 @@ var app = (function () {
     			img = element("img");
     			t1 = space();
     			article = element("article");
-    			t2 = text("I don't have projects that run live in the web. I've focused\n            Check out my\n            ");
+    			t2 = text("I don't have projects that run live in the web. So far I have been focusing\n            on personal projects with an emphasis on self improvement.\n            Check out my\n            ");
     			a1 = element("a");
     			span = element("span");
     			span.textContent = "Github Profile";
@@ -1052,22 +1052,22 @@ var app = (function () {
     			attr_dev(img, "alt", "Github Icon");
     			attr_dev(img, "width", "100%");
     			attr_dev(img, "height", "100%");
-    			add_location(img, file$5, 10, 16, 254);
-    			add_location(picture, file$5, 9, 12, 228);
+    			add_location(img, file$5, 11, 16, 255);
+    			add_location(picture, file$5, 10, 12, 229);
     			attr_dev(a0, "href", "https://github.com/wzslr321");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-1v6oz5r");
-    			add_location(a0, file$5, 8, 8, 161);
+    			attr_dev(a0, "class", "svelte-syt91");
+    			add_location(a0, file$5, 9, 8, 162);
     			attr_dev(span, "class", "highlighted-text");
-    			add_location(span, file$5, 17, 16, 555);
+    			add_location(span, file$5, 19, 16, 642);
     			attr_dev(a1, "href", "https://github.com/wzslr321");
-    			attr_dev(a1, "class", "svelte-1v6oz5r");
-    			add_location(a1, file$5, 16, 12, 500);
-    			attr_dev(article, "class", "svelte-1v6oz5r");
-    			add_location(article, file$5, 13, 8, 380);
-    			attr_dev(section0, "class", "svelte-1v6oz5r");
-    			add_location(section0, file$5, 7, 4, 143);
-    			attr_dev(section1, "class", "svelte-1v6oz5r");
+    			attr_dev(a1, "class", "svelte-syt91");
+    			add_location(a1, file$5, 18, 12, 587);
+    			attr_dev(article, "class", "svelte-syt91");
+    			add_location(article, file$5, 14, 8, 381);
+    			attr_dev(section0, "class", "svelte-syt91");
+    			add_location(section0, file$5, 8, 4, 144);
+    			attr_dev(section1, "class", "svelte-syt91");
     			add_location(section1, file$5, 4, 0, 79);
     		},
     		l: function claim(nodes) {

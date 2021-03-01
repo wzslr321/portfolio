@@ -25,6 +25,14 @@
       color: $primary-orange-color;
       text-shadow: 2px 2px 2px black;
     }
+  }
 
+  @media(max-width:600px) {
+    header {
+      padding: 0 1em;
+      h1 {
+        font-size:2em;
+      }
+    }
   }
 </style>

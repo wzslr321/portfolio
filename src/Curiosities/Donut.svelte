@@ -93,4 +93,21 @@
       justify-content: center;
     }
   }
+
+  @media(max-width:992px) {
+    section {
+      max-width:90%;
+      section {
+        article {
+          max-width:50%;
+          pre {
+            font-size:4px;
+            max-width:100%;
+            white-space: pre-wrap;
+            word-wrap:break-word;
+          }
+        }
+      }
+    }
+  }
 </style>
