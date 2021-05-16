@@ -14,20 +14,21 @@
         </p>
         <p>
             Currently my main goal is Mobile Development with
-            <span class="highlighted-text"> Flutter </span>
+            <span class="highlighted-text"> Flutter, Firebase </span>
             and
             <span class="highlighted-text"> Golang</span>.
-            I also enjoy
-            <span class="highlighted-text"> Assembly</span>,
-            after which I am going to learn the
-            <span class="highlighted-text">C </span>
-            language. As database I use
+             As database I use
             <span class="highlighted-text"> MongoDB</span>
             or
             <span class="highlighted-text"> PostgreSQL</span>
             and I containerize it all with
             <span class="highlighted-text"> Docker </span>
 
+        </p>
+        <p>
+            I am not a big fan of being only a 'code writer', that's the reason why 
+            I've been learning basics of Assembly language. I want to understand truely 
+            how the computer works, so I can code much better optimalized applications! 
         </p>
 
     </section>

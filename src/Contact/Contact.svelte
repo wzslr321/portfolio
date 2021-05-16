@@ -6,17 +6,24 @@
     <SectionHeader textContent="Contact Me"/>
     <article id="contact">
         <p>
-            Reach me via e-mail:
-            <span class="highlighted-text">
-            wiktor.zajac888@gmail.com
-        </span>
+            Reach me via:
         </p>
-
-        <p> Or through the Facebook:
-            <a href="https://www.facebook.com/wiktor.zajac.96/" target="_blank">
+        <p>
+            Email:
+            <span class="highlighted-text">
+                wiktor.zajac888@gmail.com
+            </span>
+            Twitter:
+            <a href="https://twitter.com/WiktorZajc10" target="_blank">
             <span class="highlighted-text">
                 Wiktor Zając
             </span>
+            </a>
+            Or
+            <a href="https://www.linkedin.com/in/wiktor-zaj%C4%85c-027622207/" target="_blank">
+                <span class="highlighted-text">
+                    LinkedIn
+                </span>
             </a>
         </p>
     </article>
